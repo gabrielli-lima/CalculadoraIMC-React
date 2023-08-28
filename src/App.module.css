@@ -1,49 +1,50 @@
-*{
+* {
     box-sizing: boder-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.headerContainer{
+.headerContainer {
     max-width: 900px;
     margin: 40px auto;
 }
 
-.container{
-    display:flex;
+.container {
+    display: flex;
     max-width: 900px;
     margin: auto;
 }
 
-.container .leftSide{
+.container .leftSide {
     flex: 1;
     margin-right: 40px;
 }
 
-.container h1{
+.container h1 {
     margin: 0;
     font-size: 40px;
     color: #3A4B5C;
 }
 
-.container p{
+.container p {
     font-size: 15px;
     margin-bottom: 40px;
     color: #6A7D88;
 }
-.container input{
+
+.container input {
     width: 100%;
     border: 0;
-    border-bottom: 2px solid rgba(150,163, 171, .5);
+    border-bottom: 2px solid rgba(150, 163, 171, .5);
     padding: 10px 2px;
     margin-bottom: 20px;
     font-size: 14px;
     outline: 0;
 }
 
-.container button{
+.container button {
     background-color: #227C9D;
     color: #FFF;
     font-size: 15px;
@@ -56,20 +57,26 @@ body{
     transition: all ease .3s;
 }
 
-.container button:hover{
+.container button:hover {
     opacity: .8;
 }
 
-.container .rightSide{
+
+.container .rightSide {
     flex: 1;
     margin-left: 40px;
     display: flex;
 }
 
-.container .rightSide .grid{
-    flex:1;
+.container .rightSide .grid {
+    flex: 1;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
+.container .rightSide .rightBig{
+    flex:1;
+    display: flex;
+
+}

@@ -44,6 +44,10 @@ body {
     outline: 0;
 }
 
+.container input:disabled{
+    opacity: .5;
+}
+
 .container button {
     background-color: #227C9D;
     color: #FFF;
@@ -61,6 +65,9 @@ body {
     opacity: .8;
 }
 
+.container .leftSide button:disabled{
+    opacity: .5;
+}
 
 .container .rightSide {
     flex: 1;
@@ -79,4 +86,22 @@ body {
     flex:1;
     display: flex;
 
+}
+
+.container .rightSide .rightArrow{
+    position: absolute;
+    background-color: #227C9D;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: -35px;
+    margin-top: 145px;
+}
+
+.container .rightSide .rightArrow:hover{
+    opacity: .8;
 }
